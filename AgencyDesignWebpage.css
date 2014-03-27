@@ -1,7 +1,9 @@
 .header {
-	width: 100%;
-	background-color: #282828;
+	width: 150%;
+	background-color: #040124;
 	padding-top: 10px;
+	text-align: center;
+	margin-left: -250px;
 }
 
 .header p {
@@ -15,17 +17,20 @@
 }
 
 nav {
-	background-color: #CCCC66;
+	background-color: #EDCF26;
 	margin: -40px 25% 0px 25%;
+	margin-left: auto;
+	margin-right: auto;
 	line-height: 35px;
 	text-align: center;
-	width: 50%;
-	border-radius: 10px;
+	width: 40%;
+/*	border-radius: 0px;*/
 }
 
 nav div {
 	display: inline-block;
 	font-size: 0.8em;
+	margin-right: -15px;
 }
 
 .title p {
@@ -34,7 +39,7 @@ nav div {
 	text-shadow: gray 0px 2px 0px;
 	text-align: center;
 	font-family: serif;
-	font-weight: bolder;
+	font-weight: 900;
 	color: #282828;
 }
 
@@ -48,17 +53,12 @@ nav div {
 .container {
 	background-color: #D8D8D8;
 	padding-top: 10px;
-	/*width: 100%;*/
+	width: 150%;
+	margin-left: -250px;
 	height: 550px;
 }
 
-strong {
-	font-size: 20px;
-	margin-left: 45px;
-	/*margin-top: 10px;*/
-}
-
- .container p {
+.container p {
 	color: gray;
 	font-size: 0.5em;
 	font-weight: lighter;
@@ -66,20 +66,53 @@ strong {
 	margin: 0 0 0 45px;
 }
 
-.row {
-	text-align: center;
-	margin: 0 0 250px;
+strong {
+	font-size: 15px;
+	margin-left: 25px;
+	/*margin-top: 10px;*/
 }
 
-.inlineDiv {
-	width: 33%;
-	float: left;
-	display: inline-block;
+.home {
+	margin-left: 0px;
+}
+
+.work {
+	margin-right: 300px;
+	margin-left:  300px;
+}
+
+.work .some_work {
+  margin-left: 26px;
+}
+
+.row {
+	text-align: center;
+	margin-right: 300px;
+	margin-left:  300px;
 }
 
 .row p {
 	margin: 0 10px 0 45px;
 	width: 250px;
 }
+
+
+.inlineDiv {
+	width: 33%;
+	float: left;
+	display: inline-block;
+
+}
+
+.inlineDiv .description {
+	position: relative;
+	margin-left: 25px;
+
+}
+
+.bottom {
+	margin-top: 230px;
+}
+
 
 
